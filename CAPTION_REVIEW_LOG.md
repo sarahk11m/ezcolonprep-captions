@@ -6,6 +6,33 @@ errors found, and the commit that fixed them.
 
 ---
 
+## abanegura/en — 18 files ✅ verified 2026-07-01
+
+| File | Key | Errors found | Fix commit |
+|------|-----|-------------|------------|
+| wb-rec-main.vtt | wb-rec-main | "Banagura" → "Banegura" (doctor name misheard) | 3aafb03 |
+| wb-glp1.vtt | wb-glp1 | "GLP1" → "GLP-1" ×2, "F"/"entermine" cross-cue split → "phentermine", "PrEP" → "prep" (casing) | 3aafb03 |
+| wb-iron.vtt | wb-iron | none | — |
+| med-hold-main.vtt | med-hold-main | none | — |
+| db-rec-1.vtt | db-rec-1 | "hyd"/"rated" cross-cue split → "hydrated", "ride shares" → "rideshares", "ride"/"share" cross-cue split → "rideshare" ×2 | 3aafb03 |
+| db-opt-diabetes.vtt | db-opt-diabetes | "metformin" → "Metformin" (casing) | 3aafb03 |
+| nb-rec-1.vtt | nb-rec-1 | none | — |
+| nb-rec-vomit.vtt | nb-rec-vomit | "didn"/"'t" cross-cue split → "didn't" | 3aafb03 |
+| nb-opt-1.vtt | nb-opt-1 | "That"/"'s" cross-cue split → "That's" | 3aafb03 |
+| do-rec-1.vtt | do-rec-1 | "before you proceed your time" → "before your procedure time" (ASR garbling) | 3aafb03 |
+| do-opt-bp.vtt | do-opt-bp | none (meaning-intact deviation "us"→"them" left as spoken) | — |
+| do-opt-seizure.vtt | do-opt-seizure | none | — |
+| daybefore_clenpiq.vtt | bp-4 | "Clempic" → "ClenPIQ" ×4, "too small" → "two small", dropped "If" restored before "the prep isn't completed as directed" | 3aafb03 |
+| daybefore_miralax.vtt | bp-2 | "Merilax" → "MiraLAX" ×3, "Dokalax" → "Dulcolax" ×2, "diaparache" → "diaper rash" | 3aafb03 |
+| daybefore_peg.vtt | bp-pegone | "pegged" → "PEG", "follow a long" → "follow along", "Your prep is" → "Your PEG prep is" (dropped brand name), "crystal light" → "Crystal Light" ×2 | 3aafb03 |
+| daybefore_plenvu.vtt | bp-plenvu | "mango" → "Mango" ×3, "fruit"/"punch" → "Fruit"/"Punch" ×3 (one cross-cue), "in water" → "and water" | 3aafb03 |
+| daybefore_suprep.vtt | bp-1 | "super prep" → "SUPREP", "follow a long" → "follow along", "oz" → "ounces" ×4 | 3aafb03 |
+| daybefore_sutab.vtt | bp-sutab | "suit tab" → "SuTab" ×2, "follow a long" → "follow along", "don"/"'t" cross-cue split → "don't" | 3aafb03 |
+
+Final sweep (post-Phase-4 GitHub re-download): confirmed no leftover instances of the mis-transcriptions above anywhere in the 18 corrected files.
+
+---
+
 ## balex/en — 11 files ✅ verified 2026-06-30
 
 | File | Key | Errors found |
